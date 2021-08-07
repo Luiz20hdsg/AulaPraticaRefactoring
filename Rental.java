@@ -35,4 +35,7 @@ public class Rental {
              break;
       }
    }
+   public int getFrequentRenterPoints() {
+      frequentRenterPoints ++;
+   }
 }
