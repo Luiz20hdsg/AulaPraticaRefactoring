@@ -1,3 +1,5 @@
-public class HtmlStatement extends Statement {
+import java.util.Enumeration;
 
+public class HtmlStatement extends Statement {
+    return new Statement().value(this);
 }
