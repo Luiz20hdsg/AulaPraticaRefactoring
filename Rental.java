@@ -16,8 +16,9 @@ public class Rental {
       return _movie;
    }
 
-   public double getCharge() {
+   public double getCharge(){
       //Adicionar o trecho de código extraído.
+     // double thisAmount = 0;
       switch (getMovie().getPriceCode()) {
          case Movie.REGULAR:
              thisAmount += 2;
