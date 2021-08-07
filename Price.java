@@ -19,5 +19,10 @@ public abstract class Price {
             break;
      }
  }
+ public abstract double getCharge(int daysRented);
+
+ public int getFrequentRenterPoints(int daysRented) {
+    frequentRenterPoints ++;
+ }
 }
 
